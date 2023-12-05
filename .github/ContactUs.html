@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,3 +28,109 @@
       </nav>
     </div>
   </header>
+  <script>
+    function showNav() {
+      var element = document.getElementById("nav-items");
+      element.classList.toggle("show-items");
+    }
+  </script>
+    <section>
+      <div class="form">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Your Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter Patient Name here"
+            required
+          /> <label for="email">Your Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter Patient email here"
+            required
+          />
+          <label for="service">Service</label>
+          <select id="service" name="service">
+            <option value="certificate">BCRPA certified personal training (single 
+              session)</option>
+            <option value="Technique">3 Session Technique/Form Correction</option>
+            <option value="5 sessions">5 sessions (includes optional 
+              Physiotherapy evaluation)</option>
+          </select>
+      
+          <fieldset>
+            <legend>Choose the Date for Session:</legend>
+            <input type="radio" id="w22" name="term" value="2 Dec">
+            <label for="w22">December 2-12</label><br>
+            <input type="radio" id="f22" name="term" value="13 Dec">
+            <label for="f22">December 13-23</label><br>
+            <input type="radio" id="w23" name="term" value="14 Dec">
+            <label for="w23">December 24-4</label>
+          </fieldset>
+      
+
+          <label for="message">Your Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="3"
+            placeholder="If you have any special request please mention here"
+          ></textarea>
+
+          <div class="wrapper-button">
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+    </section>
+    <p>Our reception hours are
+      Monday to Thursday
+      8:00AM-5:00PM
+      Friday
+      8:00AM-3:00PM</p>
+  
+      
+    
+    
+</body>
+<footer>
+  <div class="wrapper-width">
+  <div class="footerr">
+    <div class="social">
+      <h3> Join Us </h3>
+      <img src="Images/facebook.png" alt="Facebook">
+      <img src="Images/insta.png" alt="Insta">
+      <img src="Images/twitter.jpg" alt="Twitter">
+    
+     
+     </div>
+     <div class="links">
+      <h3>Quick Links</h3>
+    <p><a href='Services.html'> Products and Services</a> <br>
+     <a href='ContactUs.html'> Contact Us</a><br>
+     <a href='Our-Team.html'> Our-Team </a></p>
+     </div>
+     <div class="ddress">
+      <h3>Contact Us:</h3>
+     <address>
+      141A Nordin Street<br>
+      Comox, BC, Canada<br>
+      V9M 3N5<br>
+      Phone: 250-339-1039<br>
+      Fax: 250 890-0032<br>
+      Email: admin@ascentphysiotherapy.com
+      </address>
+     </div>
+     <div class="Location">
+        <h3>Our Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2582.024132080098!2d-124.9249159!3d49.6726841!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54881315b1258325%3A0xf21aee3501fe1122!2sAscent%20Physiotherapy!5e0!3m2!1sen!2sca!4v1701305055278!5m2!1sen!2sca" width="380" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+    <p class="footerp">©Kendra Mulligan Physical Therapist Corp 2010</p>
+  
+    </footer>
+    </html> 
