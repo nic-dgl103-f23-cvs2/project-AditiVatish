@@ -126,7 +126,21 @@ html{
       .hero_img{
        width: 60%;
       }
-
+.butn{
+  border-radius: 5%;
+  border-color: #ffffff;
+  background-color:#022b3a;
+  text-decoration: none;
+  color:#ffffff;
+  margin: 1px;
+  padding: 6px;
+  color: #ffffff; 
+  font-weight: bold;
+  transition: background-color 0.3s; 
+}
+.butn:hover {
+  background-color: #1ca08e; 
+}
 .contentimg{
   width: 50%;
 }
