@@ -276,4 +276,199 @@ input[type="submit"]:hover {
         flex-direction: row;
         padding: 200px ;
       }
- }
+    
+      #nav-items {
+        font-size: 2rem;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        margin: 20px 100px auto auto;
+      }
+h1{
+      font-size: 50px;
+      color: #022b3a;
+      text-align: center;
+      padding: 20px;
+      margin: 20px;}
+.butn{
+  color: white;
+  border-radius: 5%;
+  border-color: #ffffff;
+  background-color:#022b3a;
+  text-decoration: none;
+  margin: 27px;
+  padding: 8px;
+  text-emphasis-color: white;
+}
+/* why chose us*/
+.content-flex{
+  display: flex;
+}
+.content{
+  margin: 0% 5%;
+}
+.feedback{
+  display:flex;
+}
+.testimonials{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+
+}
+.button{
+  color: white;
+  border-radius: 5%;
+  border-color: #ffffff;
+  background-color:#022b3a;
+  text-decoration: none;
+  margin: 27px;
+  padding: 8px;
+  text-emphasis-color: white;
+}
+/*===============================Services=======================================*/
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  background-color: rgb(140, 165, 165);
+}
+  td,th {
+  /*   border: 1px solid #ddd; */
+  padding: 8px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #022b3a;
+  color: white;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+.appointment{
+  
+  text-align: center;
+  width: 200px;
+  border-radius: 2%;
+  
+  background-color:#022b3a;
+  text-decoration: none;
+  margin: 20px 450px;
+  padding: 18px;
+  
+}
+.appointment a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  flex: 0 0 calc(25% - 20px);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+}
+.fade-in {
+  opacity: 1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+ 
+.btn{
+  border-radius: 5%;
+  border-color: #ffffff;
+  background-color:#022b3a;
+  text-decoration: none;
+  color:#ffffff;
+  margin: 10px;
+  padding: 10px;
+  color: #ffffff; 
+  font-weight: bold;
+  transition: background-color 0.3s; 
+}
+.btn:hover {
+  background-color: #1ca08e; 
+}
+
+
+ /*===================Contact Us=====================*/
+
+input[type="reset"] {
+  color: #022b3a;
+  padding: 12px 20px;
+  border: 1px solid #022b3a;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background-color: #d1efe3;
+}
+
+input[type="submit"] {
+  background-color: #022b3a;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid #022b3a;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #022b3a;
+}
+
+/* ===============
+   STRUCTURE
+   =============== */
+
+.wrapper-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wrapper-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ===============
+   FORM CONTROLS
+   =============== */
+   /**footer**/
+   .footerr{
+    margin-left: 5%;
+    display: flex;
+    gap: 4%;
+    text-align: left;
+   }
+   
+}
+
+/*===============================Our Team=======================================*/
+
+.team_img{
+  margin: auto;
+  display: block;
+}
