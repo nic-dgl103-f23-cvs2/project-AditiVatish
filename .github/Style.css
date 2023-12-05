@@ -86,7 +86,30 @@ html{
         margin: 10px;
         padding: 10px;
       }
-
+      .wrapper-width1 {
+        position: relative;
+        max-width: 100% ;
+        margin: 0 auto ;
+        padding: 37px;
+        background: url('Images/physic.jpg') center/cover no-repeat; 
+        color: #fff;}
+        .text-container1 {
+          background-color: rgba(255, 255, 255, 0.5); 
+          padding: 20px;
+          border-radius: 8px;
+        }
+    
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px); 
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+  
       .btn{
       margin: 15px;
       }
