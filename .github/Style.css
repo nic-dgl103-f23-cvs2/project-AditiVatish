@@ -274,7 +274,26 @@ input[type="submit"]:hover {
     .hero{
         display: flex;
         flex-direction: row;
-        padding: 200px ;
+       
+        background-size: cover;
+        background-size: 100%;
+        text-align: center;
+        padding: 70px;
+        margin: 0px;
+        
+      }
+ 
+ 
+      header {
+        align-items: center;
+      }
+    
+      nav {
+        padding-top: 0;
+      }
+    
+      nav .toggle {
+        display: none;
       }
     
       #nav-items {
