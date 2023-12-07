@@ -10,6 +10,7 @@ html{
     margin: 0;
     padding: 0;
     background-image: url('Images/bglogo.png'); 
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,15 +67,15 @@ html{
       text-align: center;
     }
     h3{
-      padding: 2%;
+ 
       font-size: 16px;
       color: #022b3a;
     }
       p{
         font-size: 16px;
         color: #022b3a;
-        padding: 2%;
-        margin: 2%;
+        padding: 1%;
+        margin: 1%;
       
       }
       .logo{
@@ -92,7 +93,7 @@ html{
         max-width: 100% ;
         margin: 0 auto ;
         padding: 37px;
-        background: url('Images/physic.jpg') center/cover no-repeat; 
+        background: url('Images/stone.jpg') center/cover no-repeat; 
         color: #fff;}
         .text-container1 {
           background-color: rgba(255, 255, 255, 0.5); 
@@ -117,7 +118,7 @@ html{
       background-color:#022b3a;
       text-decoration: none;
       margin: 1px;
-      padding: 6px;
+      padding: 5px;
       color: #022b3a;
       transition: background-color 0.3s; 
       }
@@ -147,12 +148,51 @@ html{
 .contentimg{
   width: 50%;
 }
+.reviews-container {
+  max-width: 100%;
+  margin: 5% auto;
+  padding: 20px;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+ 
+}
 
+.review {
+
+  margin: 10px 20px auto auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.review h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+}
+
+.review p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 5px;
+  color: #007bff; /* You can change the color */
+}
+/*call to action*/
+.call-to-action{
+  background-color: #022b3a;
+  color: white;
+}
 .cta-button {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #022b3a;
-  color: #fff;
+  background-color:wheat;
+  color: #022b3a;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
@@ -167,6 +207,16 @@ html{
   color: #022b3a; 
   text-decoration: none; 
   font-weight: bold;
+}
+/*services*/
+.product {
+  width: 300px;
+  border: 1px solid #ddd;
+  background-color:white;
+  border-radius: 8px;
+  
+  text-align: center;
+  margin: 2% 10%;
 }
 table {
   font-family: Arial, Helvetica, sans-serif;
@@ -202,7 +252,7 @@ table{
   text-align: center;
   width: 200px;
   border-radius: 2%;
-  margin: 10px 80px;
+  margin: 3% 20%;
   background-color:#022b3a;
   text-decoration: none;
   padding: 18px;
@@ -216,6 +266,12 @@ table{
 
 /*===========================Contct Us======================================*/
 /*-----form---*/
+.contact-content1 h3{
+  font-size: 3rem;
+}
+.contact-content1 p{
+  font-size: 2rem;
+}
 .form {
   max-width: 550px;
   margin: 20px auto;
@@ -337,11 +393,17 @@ h1{
 .feedback{
   display:flex;
 }
-.testimonials{
+.feedback{
   display: flex;
-  flex-direction: row;
-  text-align: center;
 
+  text-align: center;
+  gap: 5%;
+
+
+}
+.feedback1 ,.feedback2 ,.feedback3{
+  width: 500px;
+  background-color: white;
 }
 .button{
   color: white;
@@ -353,8 +415,27 @@ h1{
   padding: 8px;
   text-emphasis-color: white;
 }
+/*review*/
+.reviews-container {
+  display: flex;
+}
+.review{
+  width: 300px;
+  height: 200px;
+}
+/*call to action*/
+.call-to-action{
+  background-color: #022b3a;
+  color: white;
+}
 /*===============================Services=======================================*/
-
+.Service-hero{
+background-image: url(Images/massage-2768833_1920.jpg);
+background-size: cover;
+}
+.hero-service{
+  text-align: left;
+}
 table {
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
@@ -401,22 +482,30 @@ tbody tr:hover {
 
 .product-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 20px;
-  padding: 20px;
-}
 
+  justify-content: space-around;
+ 
+ 
+}
 .product {
-  flex: 0 0 calc(25% - 20px);
+  width: 300px;
   border: 1px solid #ddd;
+  background-color:white;
   border-radius: 8px;
-  padding: 15px;
+margin: 2% 3%;
   text-align: center;
 }
+.product-service{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+
+
 .fade-in {
   opacity: 1;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 1% 10%;
 }
  
 .btn{
@@ -437,7 +526,48 @@ tbody tr:hover {
 
 
  /*===================Contact Us=====================*/
+ .contact-hero{
+  color: white;
+  background-image: url(Images/contact-us.jpg);
+  background-size: cover;
+  padding: 15% auto;
+  text-align: left;
+height: 300px;
+  border-radius: 5px;
+  
+ .content{
 
+  background-color: rgba(255, 255, 255, 0.5); 
+  margin: auto 50% auto auto;
+  border-radius: 7px;
+ }
+
+ }
+ .contact-hero h2{
+  text-align: left;
+  color: #022b3a;
+ }
+.contact-hero p{
+text-align: left;
+color: #022b3a;
+}
+/***contact-content*/
+.contact-content{
+  display: flex;
+}
+.contact-content1{
+  margin: 5% 1% auto auto;
+  text-align: left;
+}
+.contact-content1 h3{
+  font-size: 3rem;
+}
+.contact-content1 p{
+  font-size: 2rem;
+}
+.form{
+  width: 700px;
+}
 input[type="reset"] {
   color: #022b3a;
   padding: 12px 20px;
@@ -499,3 +629,11 @@ input[type="submit"]:hover {
   margin: auto;
   display: block;
 }
+.testimonials img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px; 
+  object-fit: cover; 
+
+}
+ 
