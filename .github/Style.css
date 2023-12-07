@@ -1,0 +1,639 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif; 
+    background-color: #bfdbf7;
+  }
+  body{
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/bglogo.png'); 
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /***header***/
+  header {
+    background-color: #058789;
+    overflow: auto;
+  }
+  header h2 {
+    float: left;
+    width: 120px;
+    text-align: center;
+  }
+  nav {
+    float: right;
+    margin: 0;
+    text-align: right;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+  }
+  
+  nav ul li {
+    padding: 8px 0;
+  }
+  
+  nav ul li a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .show-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .toggle {
+    color: white;}
+  
+    h1{
+      font-size: 38px;
+      color: #022b3a;
+      text-align: center;
+      padding: 20px;
+      margin: 20px;
+    }
+    h2{
+      color: #022b3a;
+      font-size:38px;
+      text-align: center;
+    }
+    h3{
+ 
+      font-size: 16px;
+      color: #022b3a;
+    }
+      p{
+        font-size: 16px;
+        color: #022b3a;
+        padding: 1%;
+        margin: 1%;
+      
+      }
+      .logo{
+      width: 30%;
+      top: 0%;
+      }
+      section {
+        padding: 40px 0;
+        text-align: center;
+        opacity: 0; 
+        animation: fadeIn 1.5s ease-out forwards; 
+      }
+      .wrapper-width1 {
+        position: relative;
+        max-width: 100% ;
+        margin: 0 auto ;
+        padding: 37px;
+        background: url('Images/stone.jpg') center/cover no-repeat; 
+        color: #fff;}
+        .text-container1 {
+          background-color: rgba(255, 255, 255, 0.5); 
+          padding: 20px;
+          border-radius: 8px;
+        }
+    
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px); 
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+  
+      .btn{
+      border-radius: 5%;
+      border-color: #ffffff;
+      background-color:#022b3a;
+      text-decoration: none;
+      margin: 1px;
+      padding: 5px;
+      color: #022b3a;
+      transition: background-color 0.3s; 
+      }
+      .btn:hover {
+        background-color: #1ca08e; 
+      }
+      .hero_img{
+       width: 50%;
+       align-items: center;
+       padding: 3%;
+      }
+.butn{
+  border-radius: 5%;
+  border-color: #ffffff;
+  background-color:#022b3a;
+  text-decoration: none;
+  color:#ffffff;
+  margin: 1px;
+  padding: 6px;
+  color: #ffffff; 
+  font-weight: bold;
+  transition: background-color 0.3s; 
+}
+.butn:hover {
+  background-color: #1ca08e; 
+}
+.contentimg{
+  width: 50%;
+}
+.reviews-container {
+  max-width: 100%;
+  margin: 5% auto;
+  padding: 20px;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+ 
+}
+
+.review {
+
+  margin: 10px 20px auto auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.review h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+}
+
+.review p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 5px;
+  color: #007bff; /* You can change the color */
+}
+/*call to action*/
+.call-to-action{
+  background-color: #022b3a;
+  color: white;
+}
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color:wheat;
+  color: #022b3a;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #1ca08e;
+}
+
+.links a{
+  color: #022b3a; 
+  text-decoration: none; 
+  font-weight: bold;
+}
+/*services*/
+.product {
+  width: 300px;
+  border: 1px solid #ddd;
+  background-color:white;
+  border-radius: 8px;
+  
+  text-align: center;
+  margin: 2% 10%;
+}
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  background-color: rgb(140, 165, 165);
+}
+  td,th {
+ 
+  padding: 8px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #022b3a;
+  color: white;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+table{
+  width: 100%;
+}
+.appointment{
+  
+  text-align: center;
+  width: 200px;
+  border-radius: 2%;
+  margin: 3% 20%;
+  background-color:#022b3a;
+  text-decoration: none;
+  padding: 18px;
+  
+}
+.appointment a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+/*===========================Contct Us======================================*/
+/*-----form---*/
+.contact-content1 h3{
+  font-size: 3rem;
+}
+.contact-content1 p{
+  font-size: 2rem;
+}
+.form {
+  max-width: 550px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  max-width: 600px;
+  margin: 15 px auto;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+input,
+textarea,
+select {
+  width: 99%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+.wrapper-button {
+  display: flex;
+  justify-content: space-between;
+}
+input[type="reset"] {
+  width: 150px;
+  color: #022b3a;
+  padding: 12px 20px;
+  border: 1px solid #022b3a;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background-color: #d1efe3;
+}
+
+input[type="submit"] {
+  width: 150px;
+  background-color: #022b3a;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid #022b3a;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #1ca08e;
+}
+ /*=============================================================================================================*/
+ /* Large devices (desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+  .wrapper-width{
+    width: 1170px;
+    margin: auto;
+  }
+  
+  .hero{
+        display: flex;
+        flex-direction: row;
+       
+        background-size: cover;
+        background-size: 100%;
+        text-align: center;
+        padding: 70px;
+        margin: 0px;
+        
+      }
+ 
+ 
+      header {
+        align-items: center;
+      }
+    
+      nav {
+        padding-top: 0;
+      }
+    
+      nav .toggle {
+        display: none;
+      }
+    
+      #nav-items {
+        font-size: 2rem;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        margin: 20px 100px auto auto;
+      }
+h1{
+      font-size: 50px;
+      color: #022b3a;
+      text-align: center;
+      padding: 20px;
+      margin: 20px;}
+.butn{
+  color: white;
+  border-radius: 5%;
+  border-color: #ffffff;
+  background-color:#022b3a;
+  text-decoration: none;
+  margin: 27px;
+  padding: 8px;
+  text-emphasis-color: white;
+}
+/* why chose us*/
+.content-flex{
+  display: flex;
+}
+.content{
+  margin: 0% 5%;
+}
+.feedback{
+  display:flex;
+}
+.feedback{
+  display: flex;
+
+  text-align: center;
+  gap: 5%;
+
+
+}
+.feedback1 ,.feedback2 ,.feedback3{
+  width: 500px;
+  background-color: white;
+}
+.button{
+  color: white;
+  border-radius: 5%;
+  border-color: #ffffff;
+  background-color:#022b3a;
+  text-decoration: none;
+  margin: 27px;
+  padding: 8px;
+  text-emphasis-color: white;
+}
+/*review*/
+.reviews-container {
+  display: flex;
+}
+.review{
+  width: 300px;
+  height: 200px;
+}
+/*call to action*/
+.call-to-action{
+  background-color: #022b3a;
+  color: white;
+}
+/*===============================Services=======================================*/
+.Service-hero{
+background-image: url(Images/massage-2768833_1920.jpg);
+background-size: cover;
+}
+.hero-service{
+  text-align: left;
+}
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  background-color: rgb(140, 165, 165);
+}
+  td,th {
+  /*   border: 1px solid #ddd; */
+  padding: 8px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #022b3a;
+  color: white;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+.appointment{
+  
+  text-align: center;
+  width: 200px;
+  border-radius: 2%;
+  
+  background-color:#022b3a;
+  text-decoration: none;
+  margin: 20px 450px;
+  padding: 18px;
+  
+}
+.appointment a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.product-container {
+  display: flex;
+
+  justify-content: space-around;
+ 
+ 
+}
+.product {
+  width: 300px;
+  border: 1px solid #ddd;
+  background-color:white;
+  border-radius: 8px;
+margin: 2% 3%;
+  text-align: center;
+}
+.product-service{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+
+
+.fade-in {
+  opacity: 1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 1% 10%;
+}
+ 
+.btn{
+  border-radius: 5%;
+  border-color: #ffffff;
+  background-color:#022b3a;
+  text-decoration: none;
+  color:#ffffff;
+  margin: 10px;
+  padding: 10px;
+  color: #ffffff; 
+  font-weight: bold;
+  transition: background-color 0.3s; 
+}
+.btn:hover {
+  background-color: #1ca08e; 
+}
+
+
+ /*===================Contact Us=====================*/
+ .contact-hero{
+  color: white;
+  background-image: url(Images/contact-us.jpg);
+  background-size: cover;
+  padding: 15% auto;
+  text-align: left;
+height: 300px;
+  border-radius: 5px;
+  
+ .content{
+
+  background-color: rgba(255, 255, 255, 0.5); 
+  margin: auto 50% auto auto;
+  border-radius: 7px;
+ }
+
+ }
+ .contact-hero h2{
+  text-align: left;
+  color: #022b3a;
+ }
+.contact-hero p{
+text-align: left;
+color: #022b3a;
+}
+/***contact-content*/
+.contact-content{
+  display: flex;
+}
+.contact-content1{
+  margin: 5% 1% auto auto;
+  text-align: left;
+}
+.contact-content1 h3{
+  font-size: 3rem;
+}
+.contact-content1 p{
+  font-size: 2rem;
+}
+.form{
+  width: 700px;
+}
+input[type="reset"] {
+  color: #022b3a;
+  padding: 12px 20px;
+  border: 1px solid #022b3a;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background-color: #d1efe3;
+}
+
+input[type="submit"] {
+  background-color: #022b3a;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid #022b3a;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #022b3a;
+}
+
+/* ===============
+   STRUCTURE
+   =============== */
+
+.wrapper-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wrapper-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ===============
+   FORM CONTROLS
+   =============== */
+   /**footer**/
+   .footerr{
+    margin-left: 5%;
+    display: flex;
+    gap: 4%;
+    text-align: left;
+   }
+   
+}
+
+/*===============================Our Team=======================================*/
+
+.team_img{
+  margin: auto;
+  display: block;
+}
+.testimonials img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px; 
+  object-fit: cover; 
+
+}
+ 
